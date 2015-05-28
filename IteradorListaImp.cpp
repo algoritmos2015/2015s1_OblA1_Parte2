@@ -18,6 +18,8 @@ IteradorListaImp<T>::IteradorListaImp(const IteradorListaImp<T> &it) {
 	ppio = it.ppio;
 	actual = it.actual;
 }
+
+//Para ver si funciona
 	
 template <class T>
 Iterador<T> &IteradorListaImp<T>::operator=(const IteradorListaImp<T> &it) {
